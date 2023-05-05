@@ -35,7 +35,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5em;
+    padding: 1em 10px;
+    margin: 0 auto;
+    max-width: 1360px;
 }
 #logo {
     font-size: 2em;
@@ -45,8 +47,17 @@ nav {
     padding: 0 1.5em;
     border: none;
     background-color: white;
-
 }
+
+.green {
+    color: #00b289;
+}
+
+@media (max-width: 950px) {
+    .hidden-1 {
+      display: none;
+    }
+  }
 
 #nav-third-block button {
     padding: 0.5rem 1rem;
@@ -69,6 +80,198 @@ nav {
     font-weight: bolder;
 }
 
-.green {
+main {
+    padding: 4rem 10px;
+    max-width: 1150px;
+    margin: 0 auto
+}
+
+main>div {
+    padding: 2rem 0;
+}
+
+#first-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+#first-block h1 {
+    font-size: 2rem;
+    font-weight:400;
+}
+
+#first-block>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+#first-block strong {
+    font-weight: bold;
+}
+#first-block>div>span {
+    color:#4c4d5f  ;
+}
+
+#first-block button {
+    background-color: #00b289;
+    width: 2rem;
+    height: 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+}
+#circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+
+#second-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#second-block>*{
+    box-shadow: 0 0 2px #4c4d5f;
+    border-radius: 3px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 300px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#second-block>*>* {
+    padding: 2em 0;
+}
+
+#second-block h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+#dollar {
+    border-bottom: 1px solid #00b289;
+    display: flex;
+    align-items: end;
+    gap: 0.5rem;
+}
+
+#second-block ul{
+    padding: 2em 2rem;
+}
+
+#second-block ul li{
+    font-size: 14px;
+    padding: 0.5rem 0;
+}
+
+#new {
+    color: white;
+    background-color: #f8db62;
+}
+
+#second-block button{
+    padding: 1rem 0;
+    color: white;
+    background-color: #00b289;
+    border: 0;
+    border-radius: 3px;
+}
+
+#number {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#text-up {
+    align-self: flex-start;
+}
+
+ul {
+    list-style-image: url('check.png');
+}
+
+main>h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem 0 2rem 0;
+}
+
+#third-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#third-block>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    box-shadow: 0 0 3px 1px #4c4d5f;
+    padding: 2rem;
+    border-radius: 3px;
+}
+
+#third-block h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#third-block p {
+    font-size: 0.8rem;
+    padding: 0.5em 0;
+    font-weight: lighter;
+}
+
+#third-block strong {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#third-block span {
+    font-size: 0.8rem;
+}
+
+#third-block>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#third-block a {
+    padding: 0;
     color: #00b289;
+    text-decoration: none;
+}
+
+#fourth-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+    border: 0;
+    box-shadow: 0 0 3px 1px #4c4d5f;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+#fourth-block p {
+    font-size: 2rem;
+}
+
+#fourth-block button{
+    padding: 1rem 3rem;
+    color: white;
+    background-color: #00b289;
+    border: 0;
+    border-radius: 3px;
 }
