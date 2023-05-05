@@ -211,7 +211,7 @@ ul {
 main>h1 {
     text-align: center;
     font-size: 2rem;
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 0 1rem 0;
 }
 
 #third-block {
@@ -270,7 +270,7 @@ main>h1 {
     box-shadow: 0 0 3px 1px #4c4d5f;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
 }
 #fourth-block p {
     font-size: 2rem;
@@ -282,4 +282,18 @@ main>h1 {
     background-color: #00b289;
     border: 0;
     border-radius: 3px;
+}
+
+#fifth-block {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#fifth-block div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
 }
