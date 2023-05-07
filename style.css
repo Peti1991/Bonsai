@@ -43,7 +43,16 @@ nav {
     font-size: 2em;
 }
 
-#nav-second-block button, a {
+#nav-second-block {
+    display: flex;
+    align-items: center;
+}
+
+#nav-third-block {
+    margin-right: 12rem;
+}
+
+#nav-third-block button, a {
     padding: 0 1.5em;
     border: none;
     background-color: white;
@@ -59,7 +68,7 @@ nav {
     }
   }
 
-#nav-third-block button {
+#nav-fourth-block button {
     padding: 0.5rem 1rem;
     margin-left: 1rem;
 }
@@ -118,6 +127,14 @@ main>div {
     font-size: 0.8rem;
 }
 
+#arrow {
+    position: absolute;
+    right: -1rem;
+    top: -0.7rem;
+    color: #00b289;
+    height: 1.6rem;
+}
+
 #first-block strong {
     font-weight: bold;
 }
@@ -167,6 +184,24 @@ main>div {
     padding: 0;
 }
 
+#relative {
+    position: relative;
+    overflow: hidden;
+}
+
+#ribbon {
+    color: white;
+    position: absolute;
+    inset: 0 0 auto auto;
+    background: #00b289;
+    transform-origin: 0 0;
+    transform: translate(29.3%) rotate(45deg);
+    box-shadow: 0 0 0 999px #00b289;
+    clip-path: inset(0 -90%);
+    padding: 0.5rem 0;
+    font-weight: bolder;
+  }
+
 #dollar {
     border-bottom: 1px solid #00b289;
     display: flex;
@@ -199,6 +234,7 @@ main>div {
 #number {
     font-size: 2rem;
     font-weight: bolder;
+    line-height: 0.8;
 }
 #text-up {
     align-self: flex-start;
@@ -297,3 +333,36 @@ main>h1 {
     justify-content: space-between;
     font-size: 1.2rem;
 }
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#footer>div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    min-width: 300px;
+}
+
+#footer h1 {
+    font-weight: bolder;
+    padding-bottom: 3rem;
+}
+
+#footer a {
+    padding: 0.3rem  0;
+    text-decoration: none;
+    color: #4c4d5f;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem;
+}
+
+#footer h2 {
+    font-weight: bold;
+}
+
